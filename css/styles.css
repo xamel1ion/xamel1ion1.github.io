@@ -1,0 +1,302 @@
+body {
+	background: url(../images/body-bg.png);
+	margin: 30px;
+}
+.Zapf{
+	font-family: "apf Chancery", cursive;
+	color: white;
+}
+header {
+	display: ; /* Для старых браузеров */
+	text-align: center;
+}
+.slovo {
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	padding:15px;
+	background: #281f37;
+	font-size: 3em;
+	color: white;
+}
+.
+.block1 {
+	background: #281f37;
+}
+.vopros {
+padding:15px;
+	background: #281f37;
+	font-size: 2em;
+	color: white;
+	font-family: "Gabriola", cursive;
+}
+.vopros1 {
+	height: 80px; 
+	background: #281f37;
+	font-size: 2.5em;
+	color: white;
+	font-family: "Zapf Chancery",cursive;
+}
+.sarafanka{
+	display: block;
+	height: 60px; 
+	background: #281f37;
+	text-align: center;
+}
+.sarafanka img{
+	padding: 10px;
+}
+.opisanie{
+	display: flex;
+	background: #281f37;
+	justify-content: space-around;
+	align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.text{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+padding-left:20px;
+}
+.text1{
+	display: block;
+	font-size: 2em;
+	color: white;
+	font-family: "Gabriola", cursive;
+}
+.flex{
+	display:flex;
+	height: 110%;
+	align-items:center;
+}
+.btn-register{
+	background: #8b5ab7 url(../images/sarafanka1.png) center no-repeat;
+	width:200px ;
+	height: 44px;
+	outline: none;
+border:0;
+	background-size: contain;
+	margin-left: 30px;
+	border-radius: 20px;
+}
+.btn-register:hover{
+	background: #8b5ab7 url(../images/sarafanka-hover.png) center no-repeat;
+	width:200px ;
+	height: 44px;
+	background-size: contain;
+	transition: 0.5s ease;
+}
+.btn-register:active{
+	background: #8b5ab7 url(../images/sarafanka-hover.png) center no-repeat;
+	width:200px ;
+	height: 44px;
+	background-size: contain;
+	transition: 0.1s ease;
+margin-top: 2px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.9);
+}
+#a100{
+	width: 200px;
+	height: 44px;
+}
+.text2{
+	background: #281f37;
+	text-align: left;
+	font-size: 2em;
+	padding-left: 10px;
+}
+.teoria{
+	background: #281f37;
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	padding-bottom: 20px;
+
+}
+.backwhite{
+	padding:10px;
+	background: white;
+}
+.punkt{
+	padding: 10px;
+	flex-basis: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.basis50{
+	flex-basis: 50%;
+}
+.shema{
+	width: 100%;
+	background: #FFFFFF ;
+}
+.promej{
+	background: url(../images/promej.png);
+	height: 10px;
+}
+.block2{
+	display: block;
+	background: #2bb888;
+	padding: 10px;
+}
+.pravila{
+	font-size: 2.5em;
+}
+.punkt2{
+	font-size: 1.5em;
+}
+.uvelich{
+	width: 100%;
+}
+.video{
+	width:100%;
+}
+.plata1 div{
+	flex-basis: 25%;
+}
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 1100px) {
+.mobilewidth100{
+	width: 100%;
+}
+	.wrap{
+		flex-wrap: wrap;
+	}
+	.vopros1{
+		line-height: 2cm;
+	}
+}
+@media only screen and (max-width: 700px) {
+	.wrap3{
+		flex-wrap: wrap;
+
+	}
+	.plata1 div{
+		flex-basis: 50%;
+	}
+}
+@media only screen and (max-width: 610px) {
+	.punkt{
+		flex-basis: 100%;
+	}
+	.basis50{
+		flex-basis: 100%;
+	}
+	.slovo{
+		font-size: 1.5em;
+	}
+	.mobilewidth100{
+		width: 100%;
+	}
+	.wrap1{
+		flex-wrap: wrap;
+	}
+	.konec1>div {
+		flex-basis: 100%;
+	}
+
+	.vopros1{
+		padding-bottom: 2cm;
+	}
+	body{
+		margin:15px;
+	}
+	.
+}
+.konec{
+	background: #281f37;
+	padding: 10px;
+	padding-bottom: 3px;
+	align-items: center;
+	text-align: center;
+	font-size: 2em;
+}
+.konec img{
+	padding-top: 10px;
+}
+p{
+	text-align: center;
+	font-size: 2em;
+	background: #281f37;
+	padding: 10px;
+}
+.kone{
+	background: #281f37;
+	text-align: center;
+	font-size: 2em;
+}
+.konec1{
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	background: #281f37;
+}
+.work{
+	flex-basis: 50%;
+	text-align: left;
+	font-size: 1.5em;
+}
+.vi1{
+	padding: 10px;}
+
+.vi{
+	padding: 10px;
+	flex-basis: 50%;
+}
+.plata{
+	background: #281f37;
+	text-align: center;
+	font-size: 2em;
+	padding: 10px;
+}
+.plata1{
+	background: #281f37;
+	justify-content: space-around;
+	padding: 10px;
+	display: flex;
+}
+.plata1 img{
+	height: 90%;
+	width: 90%;
+	padding: 10px;
+}
+.konec2{
+	background: #281f37;
+	text-align: left;
+	padding: 10px;
+	padding-top: 1px;
+	font-size: 1em;
+}
+.info{
+	background: #281f37;
+	text-align: right;
+	padding: 10px;
+	font-size: 1.5em;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+a{
+  font-weight:600;
+  color: inherit;
+  text-decoration: none;
+}
+a:hover{
+ color:orange;
+ transition: 0.5s;
+
+}
+@media only screen and (max-width: 450px) {
+	.wrap3{
+		flex-wrap: wrap;
+
+	}
+	.plata1 div{
+		flex-basis: 100%;
+	}
+}
